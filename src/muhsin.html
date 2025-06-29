@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="./output.css">
 </head>
+
 <body>
     <header>
         <nav>
             <section class="flex items-center justify-between lg:px-[45px] px-3 gap-10 py-3">
                 <img class="lg:w-auto w-[40%]" src="./img-muhsin/logo.svg" alt="">
-                <div class="lg:block hidden"> 
+                <div class="lg:block hidden">
                     <h1 class="text-[#00578A] font-[600]">8 (495) 926-06-03</h1>
                     <div class="flex items-center gap-1">
                         <img src="./img-muhsin/social.png" alt="">
@@ -35,12 +37,13 @@
                     <button class="bg-[#E3EFF5] text-[#00578A] py-2.5 rounded-md px-3">Личный кабинет</button>
                 </div>
                 <div class="flex lg:hidden gap-8">
-                    <img  src="./img-muhsin/call.png" alt="">
+                    <img src="./img-muhsin/call.png" alt="">
                     <img src="./img-muhsin/burger.png" alt="">
                 </div>
             </section>
 
-            <section class="lg:flex items-center justify-between lg:px-[45px] px-3 gap-10 py-3 shadow-md mt-3 w-[98%] ml-[1%]  hidden">
+            <section
+                class="lg:flex items-center justify-between lg:px-[45px] px-3 gap-10 py-3 shadow-md mt-3 w-[98%] ml-[1%]  hidden">
                 <select name="" id="">
                     <option value="">Направления</option>
                 </select>
@@ -61,15 +64,298 @@
             </section>
         </nav>
 
-        <section style="background-image: url(./img-muhsin/bg.png);width: 100%; " class="flex lg:flex-row flex-col items-center lg:h-[80vh] h-[90vh]">
+        <section style="background-image: url(./img-muhsin/bg.png);width: 100%; background-repeat: no-repeat;"
+            class="flex lg:flex-row flex-col items-center lg:h-[80vh] h-[90vh] bg-cover">
             <aside class="pl-10 text-white lg:w-auto w-[95%]">
                 <h1 class="lg:text-[60px] text-[35px] lg:w-[70%] w-[95%] font-[600]">Позаботьтесь о своём здоровье</h1>
-                <p class="lg:w-[60%] w-[100%] lg:text-[17px] text-[15px]">Осуществляем комплексное медицинское обслуживание населения: консультации и амбулаторное лечение у специалистов всех направлений, медицинские обследования и диагностические процедуры.</p>
+                <p class="lg:w-[60%] w-[100%] lg:text-[17px] text-[15px]">Осуществляем комплексное медицинское
+                    обслуживание населения: консультации и амбулаторное лечение у специалистов всех направлений,
+                    медицинские обследования и диагностические процедуры.</p>
                 <button class="bg-[#00C6BF] mt-3 text-white font-[600] py-3 rounded-md px-10">Записаться</button>
             </aside>
             <img class="lg:w-[41.5%] lg:block hidden" src="./img-muhsin/svg.png" alt="">
-            <img class="absolute lg:left-[50%] lg:top-auto top-[55%]  lg:w-[37%] w-[75%]" src="./img-muhsin/image (16).png" alt="">
+            <img class="absolute lg:left-[50%]  lg:top-auto top-[55%]  lg:w-[37%] w-[75%]"
+                src="./img-muhsin/image (16).png" alt="">
         </section>
     </header>
+
+    <main>
+        <section class="flex lg:flex-row flex-col items-center justify-between lg:px-10 px-5">
+            <article class="p-5 bg-[#F0F6F9] lg:w-[20%] w-[100%] relative -mt-10 rounded-md">
+                <h1 class="font-[600]">Направления</h1>
+                <div class="w-[95%] h-[1px] bg-gray-400 mt-3"></div>
+                <ul>
+                    <li class="mb-1.5 mt-3">Акушерство</li>
+                    <li class="mb-1.5">Косметология</li>
+                    <li class="mb-1.5">Хирургия</li>
+                    <li class="mb-1.5">Мануальная терапия</li>
+                    <li class="mb-1.5">Психотерапия</li>
+                </ul>
+                <button class="bg-[#00578A] mt-3 text-white font-[600] py-3 rounded-md px-20">Все услуги</button>
+            </article>
+
+            <article class="p-5 bg-[#F0F6F9] lg:w-[20%] w-[100%] mt-3 lg:-mt-10 rounded-md">
+                <h1 class="font-[600]">Диагностика</h1>
+                <div class="w-[95%] h-[1px] bg-gray-400 mt-3"></div>
+                <ul>
+                    <li class="mb-1.5 mt-3">МРТ</li>
+                    <li class="mb-1.5">КТ</li>
+                    <li class="mb-1.5">УЗИ</li>
+                    <li class="mb-1.5">Рентген</li>
+                    <li class="mb-1.5">Гастроскопия</li>
+                </ul>
+                <button class="bg-[#00578A] mt-3 text-white font-[600] py-3 rounded-md px-[23%]">Вся
+                    диагностика</button>
+            </article>
+
+            <article class="p-5 bg-[#F0F6F9] lg:w-[20%] w-[100%] lg:-mt-10 mt-3 rounded-md relative z-10">
+                <h1 class="font-[600]">Врачи</h1>
+                <div class="w-[95%] h-[1px] bg-gray-400 mt-3"></div>
+                <ul>
+                    <li class="mb-1.5 mt-3">Стоматолог</li>
+                    <li class="mb-1.5">Эндокринолог</li>
+                    <li class="mb-1.5">Хирургия</li>
+                    <li class="mb-1.5">Терапевт</li>
+                    <li class="mb-1.5">Невролог</li>
+                </ul>
+                <button class="bg-[#00578A] mt-3 text-white font-[600] py-3 rounded-md px-20">Все услуги</button>
+            </article>
+
+            <article class="p-5 bg-[#F0F6F9] lg:w-[20%] w-[100%] lg:-mt-10 mt-3 rounded-md relative z-10">
+                <h1 class="font-[600]">Детство</h1>
+                <div class="w-[95%] h-[1px] bg-gray-400 mt-3"></div>
+                <ul>
+                    <li class="mb-1.5 mt-3">Педиатр</li>
+                    <li class="mb-1.5">Стоматолог</li>
+                    <li class="mb-1.5">Дерматолог</li>
+                    <li class="mb-1.5">Офтальмолог</li>
+                    <li class="mb-1.5">Логопед</li>
+                </ul>
+                <button class="bg-[#00578A] mt-3 text-white font-[600] py-3 rounded-md px-20">Все врачи</button>
+            </article>
+        </section>
+        <section class="lg:p-10 p-5">
+            <section
+                style="background-image:  url(./img-muhsin/Rectangle\ 306\ copy.png); background-repeat: no-repeat;"
+                class="w-[100%] lg:h-[40vh] h-[95vh] px-10 bg-cover rounded-2xl">
+                <aside class="flex lg:flex-row flex-col items-center justify-between text-white py-5 lg:px-20">
+                    <h1 class="text-[50px] font-[700]">Записаться на приём</h1>
+                    <p class="lg:w-[20%]">Оставьте заявку и мы свяжемся с вами в ближайшее время</p>
+                </aside>
+                <aside class="px-2 py-3">
+                    <form class="flex lg:flex-row flex-col justify-center lg:gap-10 gap-3" action="">
+                        <input placeholder="Выберете направление                                 <"
+                            class="px-5 lg:w-[30%] rounded-lg py-4 placeholder-black placeholder:font-medium"
+                            type="text" name="" id="">
+                        <input placeholder="Выберете врача                                       <"
+                            class="px-5 lg:hidden block lg:w-[32%] rounded-lg py-4 placeholder-black placeholder:font-medium"
+                            type="text" name="" id="">
+                        <input placeholder="Ваше имя" class="px-5 lg:w-[30%] rounded-lg py-4 placeholder-black"
+                            type="text" name="" id="">
+                        <input placeholder="Ваш телефон"
+                            class="lg:hidden block px-5 lg:w-[32%]  rounded-lg py-4 placeholder-black" type="text"
+                            name="" id="">
+                        <button class="bg-[#00C6BF] px-4 py-3 rounded-lg text-white lg:w-[20%]">Оставить заявку</button>
+                    </form>
+                </aside>
+                <aside class=" py-3">
+                    <form class="flex lg:flex-row flex-col justify-center  items-center gap-10" action="">
+                        <input placeholder="Выберете врача                                       <"
+                            class="px-5 lg:block hidden lg:w-[32%] rounded-lg py-4 placeholder-black ml-[7.3%] placeholder:font-medium"
+                            type="text" name="" id="">
+                        <input placeholder="Ваш телефон"
+                            class="lg:block hidden px-5 lg:w-[32%] ml-2 rounded-lg py-4 placeholder-black" type="text"
+                            name="" id="">
+                        <div class="flex items-center gap-3 text-white">
+                            <input type="checkbox" name="" id="">
+                            <p class="w-[60%]">Отправляя на нашу политику <span class="underline">
+                                    конфиденциальности</span></p>
+                        </div>
+                    </form>
+                </aside>
+            </section>
+
+            <section class="flex items-center justify-between lg:px-10">
+                <aside>
+                    <h1 class="lg:text-[50px] text-[30px] lg:w-[70%] w-[90%] font-[600]">Немного о нашем медицинском
+                        центре</h1>
+                    <p class="lg:w-[62%]">Многопрофильное амбулаторно-поликлиническое учреждение для детей и взрослых
+                        в городе Мытищи. Мы предоставляем платные медицинские услуги и занимаем лидирующие позиции среди
+                        медицинских учреждений города Мытищи. У нас ежегодно обслуживаются более 150000 пациентов.</p>
+                </aside>
+                <img class="lg:block hidden" src="./img-muhsin/image (18).png" alt="">
+            </section>
+            <section class="lg:px-10">
+                <div
+                    class="bg-[#F0F6F9] lg:px-1 gap-[12%] py-5 flex lg:flex-row flex-col items-center justify-between rounded-lg ">
+                    <div class="flex items-center lg:gap-[25%] mb-5">
+                        <article>
+                            <img src="./img-muhsin/cross.png" alt="">
+                            <h1 class="font-bold text-[#017CC1]">>10</h1>
+                            <p class="lg:w-[100%]">лет заботы о вашем здоровье</p>
+                        </article>
+
+                        <article>
+                            <img src="./img-muhsin/cross.png" alt="">
+                            <h1 class="font-bold text-[#017CC1]">150</h1>
+                            <p class="w-[80%]">квалифованных специалистов</p>
+                        </article>
+                    </div>
+
+                    <div class="flex">
+                        <article>
+                            <img src="./img-muhsin/cross.png" alt="">
+                            <h1 class="font-bold text-[#017CC1]">3 000</h1>
+                            <p class="w-[80%]">медицинских услуг по всем направлениям</p>
+                        </article>
+
+                        <article>
+                            <img src="./img-muhsin/cross.png" alt="">
+                            <h1 class="font-bold text-[#017CC1]">День в день</h1>
+                            <p class="lg:w-[68%] w-[90%]">прием врача любой специальности в день обращения</p>
+                        </article>
+                    </div>
+                </div>
+            </section>
+        </section>
+
+        <section class="py-12 bg-white">
+            <section class="max-w-7xl mx-auto px-4 lg:px-8">
+                <article class="flex items-center justify-between">
+                    <h2 class="text-2xl font-semibold text-gray-800 mb-8">Популярные услуги</h2>
+                    <img src="./img-muhsin/Slider Buttons.png" alt="">
+                </article>
+
+                <section class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
+                    <article class="bg-[#F0F6F9] shadow-md rounded-lg overflow-hidden">
+                        <img src="./img-muhsin/image (19).png" alt="МРТ" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <p class="font-[600] text-gray-700 mb-4">Магнитно-резонансная томография (МРТ)</p>
+                            <button class="w-full bg-[#00578A] text-white py-2 rounded">Записаться</button>
+                        </div>
+                    </article>
+
+
+                    <article class="bg-[#F0F6F9] shadow-md rounded-lg overflow-hidden">
+                        <img src="./img-muhsin/image (20).png" alt="Гастроскопия" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <p class="font-[600] text-gray-700 mb-4">Гастроскопия</p><br>
+                            <button class="w-full bg-[#00578A] text-white py-2 rounded">Записаться</button>
+                        </div>
+                    </article>
+
+
+                    <article class="bg-[#F0F6F9] shadow-md rounded-lg overflow-hidden">
+                        <img src="./img-muhsin/image (21).png" alt="Гинеколог" class="w-full h-48 object-cover">
+                        <div class="p-4">
+                            <p class="font-[600] text-gray-700 mb-4">Прием гинеколога</p><br>
+                            <button class="w-full bg-[#00578A] text-white py-2 rounded">Записаться</button>
+                        </div>
+                    </article>
+
+
+                    <article class="bg-[#F0F6F9] shadow-md rounded-lg overflow-hidden">
+                        <img src="./img-muhsin/image (22).png" alt="Лаборатория" class="w-full h-48 ">
+                        <div class="p-4">
+                            <p class="font-[600] text-gray-700 mb-4">Лабораторная диагностика</p><br>
+                            <button class="w-full bg-[#00578A] text-white py-2 rounded">Записаться</button>
+                        </div>
+                    </article>
+                </section>
+            </section>
+        </section>
+
+        <section class="py-12 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+                <h2 class="text-4xl font-[700] text-gray-800 mb-6">Акции</h2>
+                <div class="flex lg:flex-row flex-col gap-6 mb-12">
+                    <article style="background-image: url(./img-muhsin/bg\ \(1\).png);background-repeat: no-repeat;" class="bg-cover w-auto lg:h-[35vh] h-[40vh] pl-5 flex lg:flex-row flex-col lg:ap-20 rounded-lg">
+                        <aside class="lg:p-3 pt-3">
+                            <button class="py-2 px-3 bg-[#65EAE5] rounded-xl">до 30 сентября 2023</button>
+                            <h1 class="text-[40px] text-white font-[600] lg:mt-[20%]">-20%</h1>
+                            <h1 class="text-[22px] text-white font-[600]">на биоревитацию Hualuform</h1>
+                        </aside>
+                        <img class="w-[50%]" src="./img-muhsin/image (23).png" alt="">
+                    </article>
+                    <article style="background-image: url(./img-muhsin/bg\ \(1\).png);background-repeat: no-repeat;" class="bg-cover w-auto lg:h-[35vh] h-[42vh] pl-5 flex lg:flex-row flex-col lg:gap-20 rounded-lg">
+                        <aside class="p-3">
+                            <button class="py-2 px-3 bg-[#65EAE5] rounded-xl">до 30 сентября 2023</button>
+                            <h1 class="text-[40px] text-white font-[600] lg:mt-[20%]">-20%</h1>
+                            <h1 class="text-[22px] text-white font-[600]">на биоревитацию Hualuform</h1>
+                        </aside>
+                        <img class="w-[50%]" src="./img-muhsin/image (23).png" alt="">
+                    </article>
+                </div>
+
+                <div class="flex items-center justify-between">
+                    <h2 class="lg:text-4xl text-[30px] font-bold text-gray-800 mb-6 w-[40%]">Врачи медицинского центра
+                    </h2>
+                    <img src="./img-muhsin/Slider Buttons.png" alt="">
+                </div>
+                <div class="grid grid-cols-2 lg:grid-cols-4 gap-6">
+
+
+                    <div>
+                        <img src="./img-muhsin/photo.png" alt="Врач" class="w-full rounded-lg mb-2">
+                        <p class="text-[22px] font-[600] text-[#017CC1]">Критов Андрей</p>
+                        <p class="text-[15px] text-gray-600">Главный врач, уролог, невролог</p>
+                    </div>
+
+                    <div>
+                        <img src="./img-muhsin/photo (1).png" alt="Врач" class="w-full rounded-lg mb-2">
+                        <p class="text-[22px] font-[600] text-[#017CC1]">Савина Наталья</p>
+                        <p class="text-sm text-gray-600">Врач-невролог</p>
+                    </div>
+
+                    <div>
+                        <img src="./img-muhsin/photo (2).png" alt="Врач" class="w-full rounded-lg mb-2">
+                        <p class="text-[22px] font-[600] text-[#017CC1]">Золотая Гюзель</p>
+                        <p class="text-sm text-gray-600">Врач-терапевт</p>
+                    </div>
+
+                    <div>
+                        <img src="./img-muhsin/photo (5).png" alt="Врач" class="w-full rounded-lg mb-2">
+                        <p class="text-[22px] font-[600] text-[#017CC1]">Николаева Оксана</p>
+                        <p class="text-sm text-gray-600">Врач-терапевт</p>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <section class="max-w-[1400px] m-auto">
+                <div class="flex lg:flex-row flex-col items-center justify-between">
+                    <h2 class="lg:text-4xl text-[30px] font-bold text-gray-800 mb-6 lg:w-[40%] w-[100%] p-0 pl-10">Отзывы пациентов</h2>
+                    <img src="./img-muhsin/Slider Buttons.png" alt="">
+                </div>
+                <section class="flex lg:flex-row  lg:ml-10 flex-col lg:p-0 p-5">
+                    <article>
+                        <h1 class="font-[600]">Балушина Татьяна</h1>
+                        <p>18 апреля 2022</p>
+                        <img class="mt-5 mb-5" src="./img-muhsin/Stars.png" alt="">
+                        <p class="lg:w-[65%] w-[97%]">Попала к Татьяне Ивановне спонтанно. Очень довольна приёмом и проведением
+                            ультразвуковой диагностики. Спасибо Наталье Ивановне за внимательное отношение к пациентам!
+                            При возникнвении проблем теперь только к ней!</p>
+                        <button
+                            class="border-[#017CC1] border-[2px] bg-white py-2 px-4 rounded mt-3 mb-2">Подробнее</button>
+                        <p>Врач: <span class="text-[#017CC1]"> Савина Наталья Владимировна</span></p>
+                    </article>
+
+                    <article class="lg:block hidden">
+                        <h1 class="font-[600]">Трофимов Иван</h1>
+                        <p>24 ноября 2021</p>
+                        <img class="mt-5 mb-5" src="./img-muhsin/Stars.png" alt="">
+                        <p class="w-[67%]">Огромное спасибо врачу за тщательное обследование. Выявили нехватку витамина Д, проблем с щитовидной, к счастью, не оказалось. Доктор приятная в общении и настоящий профессионал!</p>
+                        <button class="border-[#017CC1] border-[2px] bg-white py-2 px-4 rounded mt-3 mb-2">Подробнее</button>
+                        <p>Врач: <span class="text-[#017CC1]"> Крятов Андрей Михайлович</span></p>
+                    </article>
+                </section>
+            </section>
+        </section>
+    </main>
 </body>
+
 </html>
